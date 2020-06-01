@@ -4,11 +4,34 @@ $color-primary: #cce5ff;
 $color-secondary: #58e1c1;
 $color-text: #777;
 $color-hover: #0000cc;
-$color-background: #dafffd;
+$color-body: #dafffd;
 $color-detail: #51ddfc;
 $color-white: #fff;
 
+// color functions
+
+$color-secondary-dark: darken($color-secondary, 25%);
+$color-secondary-light: lighten($color-secondary, 25%);
+
+$color-white-light: lighten($color-white, 25%)
+
+$complement: complement(#58e1c1);
+
+
+// fonts
+
+//$font-primary: 16px 'Lato', sans-serif;
+
 // Breakpoints
 
-$brk-medium: '(max-width: 768px)'; 
+$break-m: 768px; 
 
+// font stacks
+
+$stack-sans-serif : Lato, Arial, sans-serif;
+$stack-helvetica : 'Helvetica Neue', $stack-sans-serif;
+$stack-abolition : 'Abolition Regular', $stack-sans-serif;
+
+// Border radius
+
+$br: 5px;

@@ -1,0 +1,55 @@
+// typography
+
+
+* {
+  font-family: $stack-sans-serif;
+  color: $color-text;
+  box-sizing: border-box;
+}
+.container {
+    background-color: $white;
+    @include mq(med) {
+      max-width: 1400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+ }
+}
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+.headline-primary {
+  color: $color-secondary;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: 300;
+  color: $color-text;
+}
+
+.link {
+  color: $color-detail;
+  font-weight: 700;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $color-text;
+  border-radius: $br;
+}
+
