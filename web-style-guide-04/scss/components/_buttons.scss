@@ -12,44 +12,48 @@
   text-transform: uppercase;
   border-radius: $br;
   background-color: $color-secondary-light;
-  transition: 
-        background-color .5s ease-in-out, 
-        color .2s ease-in-out;
+    &:hover {
+        transition: background-color .4s ease-in-out;
+    }
    @include mq(m)  {
     padding: 10px 30px;
     }
 }
-
-//.btn {
-//  margin-top: 15px;
-//  width: 100%;
-//  color: #fff;
-//  border: none;
-//  padding: 10px 0;
-//  text-transform: uppercase;
-//  border-radius: 5px;
-//}
-
 .default {
-  background-color: $color-detail;
+   background-color: $color-default;
+   &:hover {
+   background-color: $color-default-light;
+    }
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $color-error;
+    &:hover {
+      color: $color-white;
+      background-color: $color-error-light;
+      }
 }
 
 .info {
   background-color: #927bc1;
+     &:hover {
+      color: $color-white;
+      background-color: $color-info-light;
+      }
 }
 
 .success {
   background-color: #63cc82;
+     &:hover {
+      color: $color-white;
+      background-color: $color-success-light;
+     }
 }
 
 .warning {
   background-color: #fd7856;
+    &:hover {
+      color: $color-white;
+      background-color: $color-warning-light;
+     }
 }
-
-//.main-nav a:hover {
-//  color: #32CD32;
-//}

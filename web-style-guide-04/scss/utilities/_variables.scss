@@ -8,14 +8,31 @@ $color-body: #dafffd;
 $color-detail: #51ddfc;
 $color-white: #fff;
 
+$complement:  complement($color-secondary);
+$complement-light: lighten($complement, 25%);
+
+// button colors
+
+$color-default: #51ddfc;
+$color-success: #63cc82;
+$color-error: #e4757a;
+$color-warning: #fd7856;
+$color-info: #927bc1;
+
+
+
 // color functions
 
-$color-secondary-dark: darken($color-secondary, 25%);
+$color-secondary-dark: darken($color-secondary, 15%);
 $color-secondary-light: lighten($color-secondary, 25%);
 
-$color-white-light: lighten($color-white, 25%)
+$color-default-light: lighten($color-default, 15%);
+$color-success-light: lighten($color-success, 15%);
+$color-error-light: lighten($color-error, 15%);
+$color-warning-light: lighten($color-warning, 15%);
+$color-info-light: lighten($color-info, 15%);
 
-$complement: complement(#58e1c1);
+
 
 
 // fonts

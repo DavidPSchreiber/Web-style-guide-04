@@ -5,7 +5,7 @@
 
 .container {
   padding: 0 10px; 
-  color: $complement;
+  color: #ec9fa3;
   @include mq('m') { 
       max-width: 1400px;
       display: block;

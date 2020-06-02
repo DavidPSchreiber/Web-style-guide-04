@@ -1,20 +1,11 @@
 // typography
 
-
 * {
   font-family: $stack-sans-serif;
   color: $color-text;
   box-sizing: border-box;
 }
-.container {
-    background-color: $white;
-    @include mq(med) {
-      max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
- }
-}
+
 p {
   line-height: 1.45em;
 }
@@ -23,10 +14,6 @@ a {
   text-decoration: none;
 }
 
-
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
 
 .headline-primary {
   color: $color-secondary;
