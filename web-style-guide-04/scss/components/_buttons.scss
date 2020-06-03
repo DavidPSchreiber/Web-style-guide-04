@@ -11,10 +11,10 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: $br;
-  background-color: $color-secondary-light;
+  background-color: $color-primary-light;
     &:hover {
         transition: background-color .4s ease-in-out;
-    }
+            }
    @include mq(m)  {
     padding: 10px 30px;
     }

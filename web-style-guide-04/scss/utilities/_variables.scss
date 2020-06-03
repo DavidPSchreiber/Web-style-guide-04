@@ -1,14 +1,13 @@
 // colors
 
-$color-primary: #cce5ff;
-$color-secondary: #58e1c1;
+$color-primary: #58e1c1;
 $color-text: #777;
 $color-hover: #0000cc;
 $color-body: #dafffd;
 $color-detail: #51ddfc;
 $color-white: #fff;
 
-$complement:  complement($color-secondary);
+$complement:  complement($color-primary);
 $complement-light: lighten($complement, 25%);
 
 // button colors
@@ -23,21 +22,21 @@ $color-info: #927bc1;
 
 // color functions
 
-$color-secondary-dark: darken($color-secondary, 15%);
-$color-secondary-light: lighten($color-secondary, 25%);
+$color-primary-dark: darken($color-primary, 15%);
+$color-primary-light: lighten($color-primary, 25%);
 
 $color-default-light: lighten($color-default, 15%);
-$color-success-light: lighten($color-success, 15%);
+$color-success-light: lighten($color-success, 15%); 
 $color-error-light: lighten($color-error, 15%);
 $color-warning-light: lighten($color-warning, 15%);
 $color-info-light: lighten($color-info, 15%);
 
 
 
+// font weight
 
-// fonts
-
-//$font-primary: 16px 'Lato', sans-serif;
+$weight-normal: 300;
+$weight-bold: 700;
 
 // Breakpoints
 
