@@ -670,7 +670,7 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .3s ease-in-out,  color .3s ease-in-out;
+  transition: background-color .4s ease-in-out,  color .4s ease-in-out;
 }
 
 @media (min-width: 768px) {
@@ -699,7 +699,7 @@ a {
   max-height: 100%;
 }
 
-/* line 17, ../../../../../Users/davidschreiber/Desktop/Coding Projects/TechnicalDegree-project-4/web-style-guide-04/scss/components/_images.scss */
+/* line 13, ../../../../../Users/davidschreiber/Desktop/Coding Projects/TechnicalDegree-project-4/web-style-guide-04/scss/components/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -710,7 +710,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 27, ../../../../../Users/davidschreiber/Desktop/Coding Projects/TechnicalDegree-project-4/web-style-guide-04/scss/components/_images.scss */
+/* line 19, ../../../../../Users/davidschreiber/Desktop/Coding Projects/TechnicalDegree-project-4/web-style-guide-04/scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;

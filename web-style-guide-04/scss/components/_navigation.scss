@@ -20,8 +20,8 @@
       display: block;
       width: 100%;
       transition: 
-        background-color .3s ease-in-out, 
-        color .3s ease-in-out;
+        background-color .4s ease-in-out, 
+        color .4s ease-in-out;
     @include mq('m') {
         flex-basis: 100px;
       }
